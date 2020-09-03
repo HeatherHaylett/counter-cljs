@@ -1,0 +1,3 @@
+{:main heather-counter.core
+ :output-to "target/main.js"
+ :output-dir "target"}
