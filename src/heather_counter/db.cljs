@@ -2,4 +2,4 @@
 
 (def state
   {:click-counter 0
-   :counter-color "purple"}) 
+   :counter-color 0}) 

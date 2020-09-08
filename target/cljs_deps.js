@@ -90,4 +90,5 @@ goog.addDependency("../re_frame/core.js", ['re_frame.core'], ['re_frame.interop'
 goog.addDependency("../heather_counter/subs.js", ['heather_counter.subs'], ['cljs.core', 'heather_counter.db', 're_frame.core']);
 goog.addDependency("../reagent/react_native.js", ['reagent.react_native'], ['reagent.core', 'cljs.core']);
 goog.addDependency("../heather_counter/events.js", ['heather_counter.events'], ['cljs.core', 'heather_counter.db', 're_frame.core']);
-goog.addDependency("../heather_counter/core.js", ['heather_counter.core'], ['heather_counter.subs', 'reagent.core', 'cljs.core', 'reagent.react_native', 'heather_counter.events', 're_frame.core']);
+goog.addDependency("../heather_counter/util.js", ['heather_counter.util'], ['cljs.core']);
+goog.addDependency("../heather_counter/core.js", ['heather_counter.core'], ['heather_counter.subs', 'reagent.core', 'cljs.core', 'reagent.react_native', 'heather_counter.events', 'heather_counter.util', 're_frame.core']);

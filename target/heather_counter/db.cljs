@@ -1,4 +1,5 @@
 (ns heather-counter.db)
 
 (def state
-  {:click-counter 0}) 
+  {:click-counter 0
+   :counter-color "red"}) 
