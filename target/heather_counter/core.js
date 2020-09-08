@@ -26,14 +26,14 @@ return re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 
 });
 heather_counter.core._main = (function heather_counter$core$_main(var_args){
 var args__12110__auto__ = [];
-var len__12100__auto___13363 = arguments.length;
-var i__12101__auto___13364 = (0);
+var len__12100__auto___13381 = arguments.length;
+var i__12101__auto___13382 = (0);
 while(true){
-if((i__12101__auto___13364 < len__12100__auto___13363)){
-args__12110__auto__.push((arguments[i__12101__auto___13364]));
+if((i__12101__auto___13382 < len__12100__auto___13381)){
+args__12110__auto__.push((arguments[i__12101__auto___13382]));
 
-var G__13365 = (i__12101__auto___13364 + (1));
-i__12101__auto___13364 = G__13365;
+var G__13383 = (i__12101__auto___13382 + (1));
+i__12101__auto___13382 = G__13383;
 continue;
 } else {
 }
@@ -54,9 +54,9 @@ return reagent.core.as_element.call(null,new cljs.core.PersistentVector(null, 1,
 (heather_counter.core._main.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(heather_counter.core._main.cljs$lang$applyTo = (function (seq13362){
+(heather_counter.core._main.cljs$lang$applyTo = (function (seq13380){
 var self__12086__auto__ = this;
-return self__12086__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq13362));
+return self__12086__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq13380));
 }));
 
 
