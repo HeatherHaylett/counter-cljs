@@ -1,5 +1,5 @@
 (ns heather-counter.core
-    (:require 
+    (:require
               [heather-counter.events]
               [heather-counter.subs]
               [reagent.core :as r]
@@ -9,6 +9,8 @@
   (defn change-number []
     (subscribe [:get-number]))
 
+  (defn change-color []
+    (subscribe [:get-color]))
 
   (defn hello []
     (let [number (change-number)]

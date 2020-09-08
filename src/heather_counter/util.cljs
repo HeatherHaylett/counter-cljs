@@ -1,4 +1,9 @@
 (ns heather-counter.util)
 
-(defn add-one [value]
-   (inc value))
+(def color-picker
+  {:red "red"
+   :yellow "yellow"
+   :orange "orange"
+   :green "green"
+   :blue "blue"
+   :purple "purple"})
